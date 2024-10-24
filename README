@@ -1,0 +1,24 @@
+libjlog v1.0.0
+======================
+libjlog is a simple-to-use standarized output
+system for low-level software like custom operating
+systems and C-based memory-efficient systems.
+
+It is configurable and easy-to-use for both C and C++.
+
+Configure
+======================
+Copy "libjlog.c" and "libjlog.h" into your project.
+While booting into your system, initialize libjlog with
+this code:
+
+        libjlog_init(printing_fn, "OSName")
+
+libjlog requires printing_fn as a callback. Here is an
+example:
+
+        void printing_fn(char *text) {
+            // do stuff here to output *text !
+        }
+
+You should be good from here.
