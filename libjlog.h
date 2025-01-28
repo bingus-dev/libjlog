@@ -1,5 +1,5 @@
 /*
-libjlog - (C) Copyright 2024 Ben Daws. <ben AT bendaws DOT net>
+libjlog - (C) Copyright 2024 - 2025 Ben Daws. <bendawsdev AT gmail DOT com>
 */
 
 enum OUTPUT_TYPE {

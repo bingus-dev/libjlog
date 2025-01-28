@@ -1,4 +1,4 @@
-libjlog v1.0.0
+libjlog v1.1.2 release notes
 ======================
 libjlog is a simple-to-use standarized output
 system for low-level software like custom operating
@@ -20,5 +20,11 @@ example:
         void printing_fn(char *text) {
             // do stuff here to output *text !
         }
+
+You can find examples to use for your code in the /examples
+directory.
+
+To test libjlog, you can set libjcli.config.h's printing function
+and use the included CLI tool (run make).
 
 You should be good from here.

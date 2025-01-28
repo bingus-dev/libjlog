@@ -1,3 +1,7 @@
+/*
+libjlog - (C) Copyright 2024 - 2025 Ben Daws. <bendawsdev AT gmail DOT com>
+*/
+
 #include "libjlog.h"
 
 void configured_callback;
